@@ -1,1 +1,3 @@
-
+<190>Mar 1 21:04:08 Gateway MTTRAFFIC if=ether1 rx_bps=390528 tx_bps=6226112
+<190>Mar 1 21:19:58 Gateway MTTRAFFIC if=pppoe-out1 rx_bps=58033872 tx_bps=1719344
+<190>Mar 1 21:20:05 Gateway MTTRAFFIC if=bridge rx_bps=1024000 tx_bps=2048000
