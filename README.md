@@ -2,9 +2,9 @@
 
 Open-source observability platform for MikroTik networks.
 
-![GitHub stars](https://img.shields.io/github/stars/YOURNAME/mikrotik-observatory)
-![GitHub forks](https://img.shields.io/github/forks/YOURNAME/mikrotik-observatory)
-![License](https://img.shields.io/github/license/YOURNAME/mikrotik-observatory)
+![GitHub stars](https://img.shields.io/github/stars/sarif2518/mikrotik-observatory)
+![GitHub forks](https://img.shields.io/github/forks/sarif2518/mikrotik-observatory)
+![License](https://img.shields.io/github/license/sarif2518/mikrotik-observatory)
 
 ## Overview
 
