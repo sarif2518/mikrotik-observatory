@@ -30,6 +30,11 @@ MikroTik → Syslog → Graylog(Pipeline / Extractors) → OpenSearch → Dashbo
 
 MTTRAFFIC if=ether1 rx_bps=390528 tx_bps=6226112
 
+# Dashboard Preview
+
+Example interface monitoring dashboard
+![Dashboard](screenshots/dashboard.png)
+
 ## Installation
 
 git clone https://github.com/sarif2518/mikrotik-observatory.git
