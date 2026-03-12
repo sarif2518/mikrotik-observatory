@@ -1,6 +1,26 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Environment
 .env
-venv/
-node_modules/
+.env.*
+
+# Logs
 *.log
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/
+
+# Docker
+*.pid
