@@ -31,7 +31,7 @@ MTTRAFFIC if=ether1 rx_bps=390528 tx_bps=6226112
 
 ## Installation
 
-git clone https://github.com/YOURNAME/mikrotik-observatory.git
+git clone https://github.com/sarif2518/mikrotik-observatory.git
 
 ## License
 
