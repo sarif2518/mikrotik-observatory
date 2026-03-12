@@ -36,8 +36,49 @@ Example interface monitoring dashboard
 ![Dashboard](screenshots/dashboard.png)
 
 ## Installation
-
 git clone https://github.com/sarif2518/mikrotik-observatory.git
+
+## Start services
+docker-compose up -d
+
+# Project Structure
+mikrotik-observatory
+│
+├── docker
+├── mikrotik
+├── parser
+├── dashboards
+├── alerts
+├── docs
+└── screenshots
+
+
+---
+
+# Roadmap
+
+Future development plan
+
+- MikroTik NetFlow Analyzer
+- Bandwidth anomaly detection
+- ISP traffic analytics
+- Web UI dashboard
+- Multi-router monitoring
+
+
+
+# Contribution
+
+Contributions are welcome.
+
+If you'd like to improve this project:
+
+1. Fork the repository  
+2. Create a new branch  
+3. Submit a pull request  
+
+
+
 
 ## License
 
