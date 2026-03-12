@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  graylog:
+    image: graylog/graylog:6.1
+    container_name: graylog
+    restart: unless-stopped
+    environment:
+      GRAYLOG_PASSWORD_SECRET: changeme_password_secret
+      GRAYLOG_ROOT_PASSWORD_SHA2: changeme_root_password_sha2
+      GRAYLOG_HTTP_BIND_ADDRESS: 0.0.0.0:9000
+    ports:
+      - "9000:9000"
+      - "1514:1514/udp"
+      - "12201:12201/udp"
+
+  opensearch:
+    image: opensearchproject/opensearch:2.19.0
+    container_name: opensearch
+    restart: unless-stopped
+    environment:
+      discovery.type: single-node
+      plugins.security.disabled: "true"
+    ports:
+      - "9200:9200"
