@@ -1,16 +1,24 @@
-# mikrotik-observatory
-MikroTik log analyzer, traffic dashboard, and LINE alert integration
-
 # MikroTik Observatory
 
-Network monitoring and log analyzer for MikroTik routers
+Open-source observability platform for MikroTik networks.
 
-## Features
-- MikroTik log parsing
-- Traffic analysis
-- Dashboard
-- LINE alerts
-- Docker deployment
+Features
 
-## Architecture
-parser → analyzer → alerts → dashboard
+- MikroTik Traffic Monitoring
+- DHCP client tracking
+- PPPoE session monitoring
+- Security alerts
+- Graylog dashboard
+- LINE notifications
+
+Architecture
+
+MikroTik -> Syslog -> Graylog -> OpenSearch -> Dashboard -> LINE
+
+Installation
+
+docker-compose up -d
+
+License
+
+MIT
