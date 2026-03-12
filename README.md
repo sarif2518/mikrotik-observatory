@@ -24,7 +24,7 @@ It provides real-time traffic analytics, DHCP monitoring, PPPoE tracking and LIN
 
 ## Architecture
 
-MikroTik → Syslog → Graylog → OpenSearch → Dashboard → LINE Alerts
+MikroTik → Syslog → Graylog(Pipeline / Extractors) → OpenSearch → Dashboard → LINE Alerts
 
 ## Example Log
 
