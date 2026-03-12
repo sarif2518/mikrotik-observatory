@@ -24,3 +24,4 @@ MikroTik Router → Syslog → Graylog → OpenSearch → Dashboard → LINE Ale
 ---
 
 ## Example Log
+MTTRAFFIC if=ether1 rx_bps=390528 tx_bps=6226112
