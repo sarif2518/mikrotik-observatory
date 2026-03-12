@@ -2,23 +2,25 @@
 
 Open-source observability platform for MikroTik networks.
 
-Features
+Monitor your MikroTik infrastructure with real-time traffic analytics, DHCP monitoring, PPPoE tracking, and LINE alerts.
 
-- MikroTik Traffic Monitoring
-- DHCP client tracking
-- PPPoE session monitoring
-- Security alerts
-- Graylog dashboard
-- LINE notifications
+---
 
-Architecture
+## Features
 
-MikroTik -> Syslog -> Graylog -> OpenSearch -> Dashboard -> LINE
+- 📊 Interface Traffic Monitoring
+- 🌐 DHCP Client Monitoring
+- 👤 PPPoE Session Tracking
+- 🚨 Network Security Alerts
+- 📈 Graylog Dashboard
+- 🔔 LINE Messaging Alerts
 
-Installation
+---
 
-docker-compose up -d
+## Architecture
 
-License
+MikroTik Router → Syslog → Graylog → OpenSearch → Dashboard → LINE Alerts
 
-MIT
+---
+
+## Example Log
