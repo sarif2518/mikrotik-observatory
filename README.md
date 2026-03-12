@@ -12,14 +12,15 @@ MikroTik Observatory is an open-source monitoring platform designed for MikroTik
 
 It provides real-time traffic analytics, DHCP monitoring, PPPoE tracking and LINE alerts.
 
-## Features
+# Features
 
-- Interface traffic monitoring
-- DHCP client tracking
-- PPPoE monitoring
-- Security alerts
-- Graylog dashboard
-- LINE notifications
+• Interface Traffic Monitoring  
+• DHCP Client Tracking  
+• PPPoE Session Monitoring  
+• Network Security Alerts  
+• Graylog Dashboard Integration  
+• LINE Messaging Notifications  
+• Lightweight Deployment with Docker  
 
 ## Architecture
 
